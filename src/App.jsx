@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 function App() {
   console.log(productos);
   return (
-    <div className="container">
+    <div>
       <Navbar />
       <p></p>
       {productos.map((producto) => (
