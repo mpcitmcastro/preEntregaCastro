@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./Navbar.css";
 import ButtonJSX from "../ButtonJSX";
 import { BsFillCartFill } from "react-icons/bs";
@@ -33,3 +34,24 @@ const Navbar = () => {
 };
 
 export default Navbar;
+=======
+import "./Navbar.css";
+import ButtonJSX from "../ButtonJSX";
+import { BsFillCartFill } from "react-icons/bs";
+
+const Navbar = () => {
+  const handleclick = (name) => {
+    alert("Aprete el " + name);
+  };
+  return (
+    <nav className="container">
+      <ButtonJSX text="Home" handleclick={handleclick} />
+      <ButtonJSX text="Contacto" handleclick={handleclick} />
+      <BsFillCartFill />
+      <p>0</p>
+    </nav>
+  );
+};
+
+export default Navbar;
+>>>>>>> 0b01d383f40ab6f20d7ff15d348f84b4eeabc6e4

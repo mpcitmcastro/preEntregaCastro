@@ -15,8 +15,12 @@
     "@mui/material": "^5.11.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.9.0"
+=======
+    "react-icons": "^4.8.0"
+>>>>>>> 0b01d383f40ab6f20d7ff15d348f84b4eeabc6e4
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

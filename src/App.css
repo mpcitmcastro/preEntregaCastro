@@ -1,4 +1,8 @@
 .container {
   display: flex;
+<<<<<<< HEAD
   justify-content: space-between;
+=======
+  justify-content: center;
+>>>>>>> 0b01d383f40ab6f20d7ff15d348f84b4eeabc6e4
 }
