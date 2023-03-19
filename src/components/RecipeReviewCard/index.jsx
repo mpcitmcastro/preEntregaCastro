@@ -16,6 +16,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import DeleteIcon from "@mui/icons-material/Delete";
 import SendIcon from "@mui/icons-material/Send";
 import { Button } from "@mui/material";
+import "./RecipeReviewCard.css";
 
 export default function RecipeReviewCard({ producto }) {
   const [expanded, setExpanded] = React.useState(false);
@@ -25,7 +26,7 @@ export default function RecipeReviewCard({ producto }) {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 450 }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -42,15 +43,16 @@ export default function RecipeReviewCard({ producto }) {
       />
       <CardMedia
         component="img"
-        height="194"
+        height="400"
+        width="400"
         image={producto.img}
         alt="MPCIT"
       />
       <Button variant="outlined" startIcon={<DeleteIcon />}>
-        Delete
+        Sacar
       </Button>
       <Button variant="contained" endIcon={<SendIcon />}>
-        Send
+        Agregar
       </Button>
       <CardContent>
         <Typography variant="body2" color="text.secondary">
